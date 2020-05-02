@@ -1,0 +1,67 @@
+/* BODY SECTION */
+body {
+    background: #333;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+/* HOME SECTION */
+
+/* background image */
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+/* overlay effect */
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* push the section little bit below the navbar */
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+/* form card opacity */
+#home-section .card-form {
+    opacity: 0.8;
+}
+
+/* checkbox rounded */
+#home-section .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* EXPLORE SECTION */
+#explore-section .fas, 
+#share-section .fas {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* CREATE SECTION */
+#create-section .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
